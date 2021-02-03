@@ -1,3 +1,7 @@
+"""
+    Replace the null or nil values in a list with 1
+"""
+
 def replace_null(input_list):
     ignore_words = ["nil","Nil","NIL","null","Null","NULL"]
     for i in range(len(input_list)):
