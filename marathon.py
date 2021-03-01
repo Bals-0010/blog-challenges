@@ -47,7 +47,7 @@ def marathon():
     # print(R)
     R.sort(reverse=True)
     # print(R)
-    print("Highest Distance excluding Finshers:")
+    print("Highest Distance excluding Finishers:")
     if len(R)>=3:
         print(R[:3])
     else:
